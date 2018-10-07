@@ -1,0 +1,114 @@
+body {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+    padding-top: 3.4375rem;
+    background-image: url("../images/concrete_seamless.png")
+  }
+  
+  @media (min-width: 62rem) {
+    body {
+      padding-top: 3.4375rem;
+    }
+  }
+  
+  .project {
+    margin-bottom: 1.875rem;
+  }
+  
+  .pagination {
+    margin-bottom: 1.875rem;
+  }
+
+
+.mainCard{
+  box-shadow: .125rem .125rem .125rem .0625rem rgba(17, 17, 17, 0.575);
+}
+
+.card-link,.card-title{
+  font-weight: 800;
+  text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.404);
+  text-decoration: none !important;
+}
+
+/* Picture on About Page */
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: .625rem;
+  margin-right: 1.5625rem;
+  box-shadow: .1875rem .1875rem .625rem .0625rem #474747;
+}   
+
+/* About Page */
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 60rem;
+  margin: 1.875rem 0 2.5rem;
+  background: #fff;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-weight: 500;
+}
+
+/* Brand marks on About Page */
+.logo{
+  height: 3.75rem;
+  width: 3.75rem;
+  margin-bottom: .625rem;
+}
+
+/* Main Page Title */
+#name{
+margin-top: 1.875rem;
+font-size: 3.75rem;
+font-weight: 900;
+text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.609)
+}
+
+/* Portfolio Page Title */
+#name2{
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
+  font-size: 3.4375rem;
+  font-weight: 900;
+  text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.609)
+  }
+
+#info{
+  font-weight: 600;
+  text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.404)
+}
+
+/* Describes */
+.description{
+  font-size: .9375rem;
+  font-weight: 500;
+  overflow-y: scroll;
+  height: 9.375rem;  
+  padding: .3125rem;
+}
+
+#about{
+  font-weight: 800;
+}
+
+.sequelize{
+  width: 8.57rem;
+}
+
+
+
+#icons .fa {
+  font-size: 2.5rem;
+  padding-right: .625rem;
+  color: #adadad;
+}
+
+.navbar,#pageFooter{
+  box-shadow: 0 .1875rem .3125rem .0625rem #474747af;
+}
+
+#pageFooter{
+  box-shadow: 0 -.0625rem .3125rem .0625rem #474747af;
+}
+
