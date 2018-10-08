@@ -1,7 +1,8 @@
 body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
     padding-top: 3.4375rem;
-    background-image: url("../images/concrete_seamless.png")
+    /* background-image: url("../images/concrete_seamless.png") */
+    background-image: url("../images/subtle-light-pattern.jpg");
   }
   
   @media (min-width: 62rem) {
@@ -112,3 +113,14 @@ text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.609)
   box-shadow: 0 -.0625rem .3125rem .0625rem #474747af;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .col-md-1{
+    height: 3.75rem;
+    width: 3.75rem;
+  float: left;
+}
+}
