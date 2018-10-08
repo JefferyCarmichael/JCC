@@ -3,6 +3,11 @@ body {
     padding-top: 3.4375rem;
     /* background-image: url("../images/concrete_seamless.png") */
     background-image: url("../images/subtle-light-pattern.jpg");
+    /* background-attachment: fixed; */
+  }
+
+  #profPage{
+    background-attachment: fixed;
   }
   
   @media (min-width: 62rem) {
@@ -45,7 +50,7 @@ body {
   float: left;
   width: 100%;
   max-width: 60rem;
-  margin: 1.875rem 0 2.5rem;
+  margin: 1.875rem 0 3.5rem;
   background: #fff;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-weight: 500;
