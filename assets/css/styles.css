@@ -94,6 +94,8 @@ text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.609)
 
 #about{
   font-weight: 800;
+  text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.329)
+
 }
 
 .sequelize{
