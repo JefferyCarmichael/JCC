@@ -1,12 +1,7 @@
 body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
     padding-top: 3.4375rem;
-    /* background-image: url("../images/concrete_seamless.png") */
     background-image: url("../images/subtle-light-pattern.jpg");
-    /* background-attachment: fixed; */
-  }
-
-  #profPage{
     background-attachment: fixed;
   }
   
@@ -24,7 +19,6 @@ body {
     margin-bottom: 1.875rem;
   }
 
-
 .mainCard{
   box-shadow: .125rem .125rem .125rem .0625rem rgba(17, 17, 17, 0.575);
 }
@@ -33,6 +27,11 @@ body {
   font-weight: 800;
   text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.404);
   text-decoration: none !important;
+}
+
+.nav-link{
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 /* Picture on About Page */
@@ -55,12 +54,11 @@ body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-weight: 500;
 }
-
-/* Brand marks on About Page */
 .logo{
   height: 3.75rem;
   width: 3.75rem;
   margin-bottom: .625rem;
+  margin-right: .625rem;
 }
 
 /* Main Page Title */
@@ -120,7 +118,7 @@ text-shadow: .125rem .125rem .625rem rgba(0, 0, 0, 0.609)
 
 @media (max-width: 768px) {
   html {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .col-md-1{
